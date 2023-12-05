@@ -1,0 +1,23 @@
+.worksContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workstitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+.workImg {
+    width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.workLinks {
+    text-decoration: none;
+    color: white;
+}
