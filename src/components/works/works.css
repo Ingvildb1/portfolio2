@@ -1,7 +1,22 @@
 .worksContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.singleContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.singleContainer p, .workstitle, .workLinks, h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
 
 .workstitle {
     display: flex;
@@ -10,14 +25,20 @@
 }
 
 .workImg {
-    width: 400px;
-    max-width: 400px;
+    width: 800px;
+    max-width: 800px;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+   
 }
 
 .workLinks {
     text-decoration: none;
     color: white;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }

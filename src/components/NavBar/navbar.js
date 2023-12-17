@@ -7,11 +7,10 @@ const Navbar = () => {
         <nav className="navbar">
             <img src="" alt="" />
             <div className="desktopMenu">
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Portfolio</Link>
+                <Link to="home" className="desktopMenuListItem" smooth={true} duration={500}>Home</Link>
+                <Link to="intro" className="desktopMenuListItem" smooth={true} duration={500}>About</Link>
+                <Link to="works" className="desktopMenuListItem" smooth={true} duration={500}>Projects</Link>
             </div>
-            
         </nav>
     )
 }
