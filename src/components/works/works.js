@@ -10,7 +10,7 @@ const Works = () => {
             <h2 className="workstitle">My projects</h2>
             <div className="worksContainer">
                 <div className="singleContainer">
-                    <img src={semester} className="workImg"></img>
+                    <img src={semester} className="workImg" alt="Semester Project 2"></img>
                     <h3>Semester Project 2</h3>
                     <p>This is my semster project.</p> 
                     <p>Second year front end studies at Noroff.</p>
@@ -20,7 +20,7 @@ const Works = () => {
                 </div>
 
                 <div className="singleContainer">
-                    <img src={js} className="workImg"></img>
+                    <img src={js} className="workImg" alt="Javascript Frameworks"></img>
                     <h3>Javascript Frameworks</h3>
                     <p>This is my Javascript Framework project</p> 
                     <p>Second year front end studies at Noroff.</p>
@@ -30,7 +30,7 @@ const Works = () => {
                 </div>
 
                 <div className="singleContainer">
-                    <img src={exam} className="workImg"></img>
+                    <img src={exam} className="workImg" alt="Project exam"></img>
                     <h3>Project Exam 2 </h3>
                     <p>This is my Project Exam 2.</p>
                     <p>The goal for this project was to create a booking site for a fictional company called Holidaze. </p>
