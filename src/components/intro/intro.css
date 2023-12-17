@@ -50,10 +50,11 @@
 @media screen and (max-width:840px) {
     .bg {
         right: -10vw;
+        width: auto;
     }
 
     .introContent{
-        font-size: 100vw;
+        font-size: 20vw;
     }
 
     .hello {
